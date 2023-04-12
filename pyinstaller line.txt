@@ -1,0 +1,1 @@
+pyinstaller -w --add-data "database/ledger.db;." --icon=img/kudir.ico mainWindow.py -p toolWindow.py -p databaseOperator.py -p ledgerModel.py -p filterProxyModel.py --hidden-import sys --hidden-import PyQt6 --hidden-import datetime
